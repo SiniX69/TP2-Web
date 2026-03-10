@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.haut {
+    background:#469c95;
+    height: 60px;
+}
+
+.menu {
+    background:#8e3c9f;
+    height: 30px;
+}
+
+.milieu {
+    background:#f2c200;
+    margin: 10px;
+    flex: 1; /* prend tout l’espace restant */
+}
+
+.bas {
+    background:#469c95;
+    height: 40px;
+}

@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenu {
+    display: flex;
+    flex: 1;
+}
+
+.gauche {
+    background:#469c95;
+    flex: 1;
+}
+
+.droite {
+    background:#8e3c9f;
+    flex: 1;
+}
+
+.bas {
+    background:#f2c200;
+    height: 60px;
+}

@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.haut {
+    background:#ff5a5a;
+    height: 60px;
+    padding:5px;
+}
+
+.contenu {
+    display: flex;
+    flex: 1;
+}
+
+.gauche {
+    background:#557edb;
+    width: 150px;
+}
+
+.milieu {
+    background:#58c778;
+    flex: 1;
+}
+
+.droite {
+    background:#a1733f;
+    width: 150px;
+}

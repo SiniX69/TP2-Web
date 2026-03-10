@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: #ddd;
+    font-family: serif;
+}
+
+.haut {
+    background: #ff5a5a;
+    height: 60px;
+    padding: 5px;
+}
+
+.contenu {
+    display: flex;
+    min-height: calc(100% - 70px);
+}
+
+.gauche {
+    background: #557edb;
+    width: 150px;
+    padding: 5px;
+}
+
+.milieu {
+    background: #58c778;
+    flex: 1;
+    padding: 5px;
+}
